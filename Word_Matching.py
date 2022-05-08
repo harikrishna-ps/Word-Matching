@@ -1,6 +1,8 @@
 from turtle import color
 import streamlit as st 
 from fuzzywuzzy import fuzz
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 
 st.title('Word Matching')
